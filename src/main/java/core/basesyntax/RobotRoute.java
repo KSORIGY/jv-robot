@@ -10,7 +10,7 @@ public class RobotRoute {
         } else if (robot.getX() > toX) {
             rotateRobotTo(robot, Direction.LEFT);
             while (robot.getX() > toX) {
-              robot.stepForward();
+                robot.stepForward();
             }
         }
         if (robot.getY() < toY) {
